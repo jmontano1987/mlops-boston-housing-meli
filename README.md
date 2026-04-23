@@ -189,7 +189,7 @@ CLIENT_SECRET=your_client_secret
 | `CLIENT_ID` | Identificador del cliente para autenticación | `your_client_id` |
 | `CLIENT_SECRET` | Secreto del cliente para autenticación | `your_client_secret` |
 
-> **Nota:** En producción estas variables deben gestionarse de forma segura (por ejemplo, mediante un gestor de secretos como AWS Secrets Manager, HashiCorp Vault o variables de entorno del orquestador). **Nunca** subir el archivo `.env` al repositorio.
+> **Nota:** En producción estas variables deben gestionarse de forma segura (por ejemplo, mediante un gestor de secretos como AWS Secrets Manager, HashiCorp Vault o variables de entorno del orquestador).
 
 ---
 
