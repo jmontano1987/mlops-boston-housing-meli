@@ -105,7 +105,15 @@ cd mlops-boston-housing-meli
 
 ---
 
-### 2. Instalar dependencias
+### 2. Crear entorno virtual
+
+```bash
+python -m venv .venv
+source .venv/bin/activate        # Linux / Mac
+.venv\Scripts\activate           # Windows
+```
+
+### 3. Instalar dependencias
 
 ```bash
 pip install -r requirements.txt
