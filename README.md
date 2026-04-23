@@ -144,7 +144,7 @@ Este proceso realiza:
 Ejecutar MLflow:
 
 ```bash
-mlflow ui
+mlflow ui --port 5000 --host 0.0.0.0  --allowed-hosts "*"  --cors-allowed-origins "*"
 ```
 
 Abrir en navegador:
