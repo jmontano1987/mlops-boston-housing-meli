@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv
+models/
+mlruns/
+mlflow.db
+.DS_Store
+.vscode/
+gen-lang-client-*.json

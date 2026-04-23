@@ -1,0 +1,7 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = gdrive://1C9yEp4HNlBI_BgAh5A-B0KxeZDDpU2lX
+    gdrive_acknowledge_abuse = true
+    gdrive_use_service_account = false
+    gdrive_service_account_json_file_path = /Users/juanmontano/Documents/Documentos Personales/Prueba MELI/mplops-boston-housing/gen-lang-client-0095300675-3626990b2f45.json

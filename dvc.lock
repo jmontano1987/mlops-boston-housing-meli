@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train_mlflow.py
+    deps:
+    - path: data/processed/data_clean.csv
+      hash: md5
+      md5: 7a5e0ec614f9172a1a7435e59d63c93c
+      size: 36982
+    outs:
+    - path: models/model.pkl
+      hash: md5
+      md5: 05fefc268a1a340119722e4b7342aefe
+      size: 744250
+  preprocess:
+    cmd: python src/preprocess.py
+    deps:
+    - path: data/raw/HousingData.csv
+      hash: md5
+      md5: 9d9460d994e88c868ee98ea23e6c4111
+      size: 35008
+    outs:
+    - path: data/processed/data_clean.csv
+      hash: md5
+      md5: 7a5e0ec614f9172a1a7435e59d63c93c
+      size: 36982

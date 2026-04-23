@@ -1,0 +1,10 @@
+fastapi==0.136.0
+joblib==1.5.3
+mlflow==3.11.1
+numpy==2.2.6
+pandas==2.2.2
+pydantic==2.13.3
+python-dotenv==1.2.2
+python_jose==3.5.0
+scikit_learn==1.8.0
+python-multipart

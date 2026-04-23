@@ -1,0 +1,14 @@
+stages:
+  preprocess:
+    cmd: python src/preprocess.py
+    deps:
+      - data/raw/HousingData.csv
+    outs:
+      - data/processed/data_clean.csv
+
+  train:
+    cmd: python src/train_mlflow.py
+    deps:
+      - data/processed/data_clean.csv
+    outs:
+      - models/model.pkl
