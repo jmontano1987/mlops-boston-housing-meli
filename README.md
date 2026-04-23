@@ -100,7 +100,7 @@ Datos → DVC → Train → MLflow → API → Docker → CI (GitHub Actions)
 
 ```bash
 git clone https://github.com/jmontano1987/mlops-boston-housing-meli.git
-cd mlops-boston-housing
+cd mlops-boston-housing-meli
 ```
 
 ---
