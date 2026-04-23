@@ -413,7 +413,7 @@ curl -X POST http://localhost:8000/predict \
   }'
 ```
 
-> **Nota:** Generá valores seguros para `CLIENT_ID` y `CLIENT_SECRET` con `python -c "import secrets; print(secrets.token_urlsafe(32))"`. Nunca uses valores por defecto en producción.
+> **Nota:** Generá valores seguros para `CLIENT_ID` y `CLIENT_SECRET` con `python -c "import secrets; print(secrets.token_urlsafe(32))"`. 
 
 ---
 
@@ -455,6 +455,14 @@ Esto asegura:
 * Configuración mediante variables de entorno (12-factor app)
 * Autenticación JWT en endpoints sensibles
 * Pipeline de CI con GitHub Actions (validación de imports, carga del modelo y lint)
+
+---
+
+## Uso de herramientas de IA
+
+Se utilizaron herramientas de IA como apoyo puntual en tareas de productividad (refactorización, documentación y debugging).
+
+Las decisiones de arquitectura, selección de tecnologías y diseño del pipeline fueron definidas y validadas de forma independiente.
 
 ---
 
