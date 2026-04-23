@@ -462,7 +462,7 @@ Esto asegura:
 
 Se utilizaron herramientas de IA como apoyo puntual en tareas de productividad (refactorización, documentación y debugging).
 
-Las decisiones de arquitectura, selección de tecnologías y diseño del pipeline fueron definidas y validadas de forma independiente.
+Las decisiones de arquitectura, selección de tecnologías y diseño del pipeline fueron definidas y validadas de forma independiente. Con base en mi criterio profesional y experiencia.
 
 ---
 
@@ -578,7 +578,7 @@ Cada ejecución de entrenamiento se registra en MLflow:
 
 El servidor de tracking de MLflow mantiene el historial completo y permite comparación, búsqueda y reproducción de cualquier experimento por `run_id`.
 
-#### Pilar 3 — Gobierno de Modelos (MLflow Model Registry con Stages)
+#### Pilar 3 — Gobierno de Modelos (MLflow Model Registry con Tags)
 
 El Model Registry se implementó en el proyecto utilizando el mecanismo de Tags (`Staging → Production → Archived`) y se convierte en el núcleo de gobernanza:
 
@@ -605,7 +605,7 @@ La arquitectura está preparada para evolucionar hacia un gate completo que incl
 - promoción de modelos en MLflow Registry,
 - validaciones de drift en datos de entrenamiento.
 
-#### Pilar 5 — Trazabilidad en Producción (Enriched Logging)
+#### Pilar 5 — Trazabilidad en Producción
 
 El endpoint `/predict` implementa trazabilidad en tiempo de inferencia mediante la generación de un `request_id` único y el registro de información relevante de cada solicitud, incluyendo los datos de entrada, la predicción generada y métricas de ejecución.
 
