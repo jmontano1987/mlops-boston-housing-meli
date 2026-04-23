@@ -99,7 +99,7 @@ Datos → DVC → Train → MLflow → API → Docker → CI (GitHub Actions)
 ### 1. Clonar repositorio
 
 ```bash
-git clone https://github.com/jmontano1987/mlops-boston-housing.git
+git clone https://github.com/jmontano1987/mlops-boston-housing-meli.git
 cd mlops-boston-housing
 ```
 
