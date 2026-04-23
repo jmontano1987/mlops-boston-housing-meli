@@ -7,4 +7,5 @@ pydantic==2.13.3
 python-dotenv==1.2.2
 python_jose==3.5.0
 scikit_learn==1.8.0
-python-multipart
+python-multipart== 0.0.26
+dvc==3.67.1
